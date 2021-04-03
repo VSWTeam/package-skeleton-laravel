@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Skeleton;
+namespace Vswteam\Skeleton;
 
 use Illuminate\Support\ServiceProvider;
-use Spatie\Skeleton\Commands\SkeletonCommand;
+use Vswteam\Skeleton\Commands\SkeletonCommand;
 
 class SkeletonServiceProvider extends ServiceProvider
 {

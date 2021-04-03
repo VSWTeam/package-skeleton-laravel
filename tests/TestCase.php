@@ -1,9 +1,9 @@
 <?php
 
-namespace Spatie\Skeleton\Tests;
+namespace Vswteam\Skeleton\Tests;
 
+use Vswteam\Skeleton\SkeletonServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Spatie\Skeleton\SkeletonServiceProvider;
 
 class TestCase extends Orchestra
 {

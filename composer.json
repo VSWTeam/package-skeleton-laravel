@@ -10,29 +10,26 @@
     "authors": [
         {
             "name": ":author_name",
-            "email": ":author_email",
-            "homepage": "https://spatie.be",
+            "homepage": "https://github.com/vswteam",
             "role": "Developer"
         }
     ],
     "require": {
-        "php": "^7.4"
+        "php": "^7.4|^8.0|^8.1"
     },
     "require-dev": {
-        "friendsofphp/php-cs-fixer": "^2.16",
-        "orchestra/testbench": "^6.0",
-        "phpunit/phpunit": "^9.3",
-        "vimeo/psalm": "^3.11"
+        "orchestra/testbench": "^5.0|^6.0|^7.0",
+        "phpunit/phpunit": "^9.4"
     },
     "autoload": {
         "psr-4": {
-            "Spatie\\Skeleton\\": "src",
-            "Spatie\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Vswteam\\Skeleton\\": "src",
+            "Vswteam\\Skeleton\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Spatie\\Skeleton\\Tests\\": "tests"
+            "Vswteam\\Skeleton\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -47,10 +44,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Spatie\\Skeleton\\SkeletonServiceProvider"
+                "Vswteam\\Skeleton\\SkeletonServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "Spatie\\Skeleton\\SkeletonFacade"
+                "Skeleton": "Vswteam\\Skeleton\\SkeletonFacade"
             }
         }
     },
